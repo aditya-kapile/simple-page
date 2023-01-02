@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/
+libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<style>
+
+    html{
+
+        scroll-behavior: smooth;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container-1{
+        width: 100%;
+        min-height: 100vh;
+        background-image: url(https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+       
+        background-attachment: fixed;
+    }
+
+    .container-1 .nav {
+
+        position: sticky;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: white;
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+
+    .container-1 .inner-1 {
+
+        display: grid;
+        place-items: center;
+        min-height: 60vh;
+        gap: 20px;
+        padding: 10px;
+
+        color: white;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .container-1 .inner-1 button{
+
+        font-size: 1.5rem;
+        padding: 20px 40px;
+        background: red;
+        border: none;
+        color:white;
+        cursor: pointer;
+        transition-duration: 1s;
+    }
+
+    .container-1 .inner-1 button:hover{
+
+        transform: scale(1.2);
+    }
+
+    .container-2{
+
+        padding: 20px;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: red;
+        background-attachment: fixed;
+    }
+
+    .container-2 button {
+
+        border: none;
+        border-radius: 10px;
+        font-size: 1.4rem;
+        padding: 10px 20px;
+        cursor: pointer;
+
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="container-1">
+        <div class="nav">
+            <h2>Hired</h2>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="inner-1">
+            <div class="logo">
+                <img src="http://clipart-library.com/images/kiKo6draT.png" style="width: 100px; height:100px; border-radius: 50%">
+            </div>
+            <h3>Geooff Cudd invite you to try hired</h3>
+            <p>Top candidates are waiting for you.Get hiring today</p>
+            <button>Get Hiring</button>
+        </div>
+    </div>
+
+    <div class="container-2">
+
+        <p style="padding: 10px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Architecto magni beatae error rem. Exercitationem debitis 
+            nulla blanditiis magnam doloremque distinctio explicabo amet asperiores numquam iste vero nostrum, omnis at atque.
+        </p>
+        <p><button>Request a demo</button></p>
+    </div>
+</body>
+</html>
